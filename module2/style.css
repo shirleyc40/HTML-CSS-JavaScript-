@@ -1,0 +1,91 @@
+*{
+	box-sizing: border-box;
+}
+
+h1{
+	text-align: center;
+	font-family: Helvetica, sans-serif; 
+	margin-bottom: 20px;
+}
+
+div.section{
+	background-color: #D3D3D3;
+	position: relative;
+	border: 1px black solid;
+}
+#sushi{
+	margin:0;
+	font-size: 1.425em;
+	font-family: Courier New, monospace;
+	color:white;
+	background-color: pink;
+	border:1px black solid;
+	padding: 5px;
+	position: absolute;
+  	top: 0;
+  	right: 0;
+  	width: 150px;
+  	text-align: center;
+}
+#Teriyaki {
+	margin:0;
+	font-size: 1.425em;
+	font-family: Courier New, monospace;
+	color:white;
+	background-color: #669ef9;
+	border:1px black solid;
+	padding: 5px;
+	position: absolute;
+  	top: 0;
+  	right: 0;
+  	width: 150px;
+  	text-align: center;
+}
+#Ramen {
+	margin:0;
+	font-size: 1.425em;
+	font-family: Courier New, monospace;
+	color:white;
+	background-color: #d8a8ed;
+	border:1px black solid;
+	padding: 5px;
+	position: absolute;
+  	top: 0;
+  	right: 0;
+  	width: 150px;
+  	text-align: center;
+}
+p{
+	padding: 30px 10px 10px 10px;
+	font-size: 1.14em;
+}
+.row{ 
+	width:100%; 
+}
+@media (min-width: 992px) {
+.col-lg-4{
+	float:left;
+	width: 33%;
+	padding:10px;
+}
+}
+@media (min-width: 768px) and (max-width:991px) {
+.col-md-6{
+	float:left;
+	width:50%;
+	padding:10px;
+}
+.col-md-12{
+	float:left;
+	width:100%;
+	padding:10px;
+}
+}
+
+@media (max-width: 767px) {
+	.col-sm-12{
+		float:left;
+		width:100%;
+		padding:10px;
+	}
+}
